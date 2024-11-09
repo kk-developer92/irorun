@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <!-- Logo -->
+            <a href="#">
+                <img src="./img/logo.svg" alt="">
+            </a>
+
+            <button class="hamburger">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="7" width="40" height="5" rx="2.5" fill="black"/>
+                    <rect y="17" width="40" height="5" rx="2.5" fill="black"/>
+                    <rect y="27" width="40" height="5" rx="2.5" fill="black"/>
+                </svg>
+                    
+            </button>
+            <!-- Menu -->
+            <nav class="menu">
+                <a class="active" href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy</a>
+            </nav>
+        </header>
+
+        <section class="promo_box">
+            <div class="promo_text">
+                <h1>Get Instant <br> Loans</h1>
+                <p>Get instant loans with ease on your smartphone.</p>
+
+                <div class="buttons">
+                    <a href="#">
+                        <img src="./img/apple.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./img/google.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <img class="promo_img" src="./img/img1.png" alt="">
+        </section>
+        
+
+        
+        <section class="promo_box">
+            <img class="promo_img" src="./img/img2.png" alt="">
+            <div class="promo_text">
+                <h2>Get Instant <br> Loans</h2>
+                <p>Get instant loans with ease on your smartphone.</p>
+
+                <div class="buttons">
+                    <a href="#">
+                        <img src="./img/apple.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./img/google.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="work">
+            <h2>How it works</h2>
+            <div class="work_grid">
+                <div class="work_elem">
+                    <img src="./img/work1.png" alt="">
+                    <h3>Set up an account</h3>
+                    <p>Download the app for free, sign up and verify your account.</p>
+                </div>
+                <div class="work_elem">
+                    <img src="./img/work2.png" alt="">
+                    <h3>Apply for a loan</h3>
+                    <p>Apply for a loan and our technology will run a credit score and decide if you are qualified.</p>
+                </div>
+                <div class="work_elem">
+                    <img src="./img/work3.png" alt="">
+                    <h3>Get your cash</h3>
+                    <p>If you qualify, your loan will be If you qualify, your loan will be</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="green_box">
+        
+    </section>
+
+
+    <script>
+       let menu = document.querySelector(".menu")
+       let btnMenu = document.querySelector(".hamburger")
+
+       btnMenu.onclick = () => menu.classList.toggle("open")
+
+
+    </script>
+    
+</body>
+</html>

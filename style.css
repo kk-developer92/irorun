@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    gap: 165px;
+    align-items: center;
+    padding: 51px 0;
+}
+
+.hamburger {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu a {
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: left;
+
+    text-decoration: none;
+    color: #222222;
+}
+
+.menu a.active,
+.menu a:hover {
+    color: #0082F3;
+}
+
+.promo_box {
+    display: flex;
+    align-items: center;
+    gap: 175px;
+    margin-bottom: 140px;
+}
+
+.promo_text h1,
+.promo_text h2 {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.promo_text h2 {
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.promo_text p {
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.work {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.work h2 {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.work_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.work_elem {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    padding: 42px 20px 50px;
+    box-shadow: 1px 0px 10px 0px #B7B7B7;
+    border-top: 12px solid #582EFF;
+}
+
+.work_elem:nth-child(2) {
+    border-color: #FF814A;
+}
+
+.work_elem:nth-child(3) {
+    border-color: #31C5A1;
+}
+
+.work_elem h3 {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+.green_box {
+    background-color: #31C5A1;
+    padding: 130px 0 80px;
+}
